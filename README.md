@@ -1,6 +1,6 @@
-# Narwin Pack [![Build Status][ci-img]][ci]
+# Narwin Pack
 
-A collection of PostCSS plugins (DockYard)[https://dockyard.com] uses in our projects.
+A collection of PostCSS plugins [DockYard](https://dockyard.com) uses in our projects.
 
 ## Installation
 ```shell
