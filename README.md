@@ -11,7 +11,6 @@ $npm install --save narwin-pack
 - [postcss-partial-import](https://github.com/jonathantneal/postcss-partial-import),
 - [postcss-nested](https://github.com/postcss/postcss-nested),
 - [postcss-custom-properties](https://github.com/postcss/postcss-custom-properties),
-- [postcss-calc](https://github.com/postcss/postcss-calc)
 - [autoprefixer](https://github.com/postcss/autoprefixer)
 
 ## Legal
