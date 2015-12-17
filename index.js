@@ -18,11 +18,6 @@ var processors = [
     defaults: {}
   },
   {
-    plugin: require('postcss-calc'),
-    namespace: 'calc',
-    defaults: {}
-  },
-  {
     plugin: require('autoprefixer'),
     defaults: { browsers: ['last 2 versions']}
   }
