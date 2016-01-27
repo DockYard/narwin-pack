@@ -1,6 +1,6 @@
 {
   "name": "narwin-pack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A collection of PostCSS plugins DockYard uses in our projects",
   "main": "index.js",
   "scripts": {
@@ -10,14 +10,16 @@
     "postcss",
     "dockyard"
   ],
+  "repository": "dockyard/narwin-pack",
   "author": "Cory Tanner <cory.tanner@dockyard.com>, Aaron Sikes <aaron.sikes@dockyard.com> (https://dockyard.com)",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^6.0.3",
+    "autoprefixer": "^6.3.1",
     "object-assign": "^4.0.1",
-    "postcss": "^5.0.10",
+    "postcss": "^5.0.14",
     "postcss-custom-properties": "^5.0.0",
     "postcss-nested": "^1.0.0",
-    "postcss-partial-import": "^1.3.0"
+    "postcss-partial-import": "^1.3.0",
+    "postcss-svg-fragments": "jonathantneal/postcss-svg-fragments"
   }
 }
