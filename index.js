@@ -18,6 +18,11 @@ var processors = [
     defaults: {}
   },
   {
+    plugin: require('postcss-svg-fragments'),
+    namespace: 'fragments',
+    defaults: {}
+  },
+  {
     plugin: require('autoprefixer'),
     defaults: { browsers: ['last 2 versions']}
   }
