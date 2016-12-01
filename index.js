@@ -25,6 +25,11 @@ var processors = [
   {
     plugin: require('autoprefixer'),
     defaults: { browsers: ['last 2 versions']}
+  },
+  {
+    plugin: require('postcss-hexrgba'),
+    namespace: 'rgba-colors',
+    defaults: {}
   }
 ];
 
