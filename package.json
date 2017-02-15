@@ -1,6 +1,6 @@
 {
   "name": "narwin-pack",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "A collection of PostCSS plugins DockYard uses in our projects",
   "main": "index.js",
   "scripts": {
