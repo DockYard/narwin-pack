@@ -13,6 +13,7 @@ $npm install --save narwin-pack
 - [postcss-custom-properties](https://github.com/postcss/postcss-custom-properties),
 - [postcss-svg-fragments](https://github.com/jonathantneal/postcss-svg-fragments),
 - [autoprefixer](https://github.com/postcss/autoprefixer)
+- [postcss-hexrgba](https://github.com/seaneking/postcss-hexrgba)
 
 ## Legal
 
