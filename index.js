@@ -18,8 +18,13 @@ var processors = [
     defaults: {}
   },
   {
-    plugin: require('postcss-svg-fragments'),
-    namespace: 'fragments',
+    plugin: require('postcss-inline-svg'),
+    namespace: 'inline-svg',
+    defaults: {}
+  },
+  {
+    plugin: require('postcss-svgo'),
+    namespace: 'svgo',
     defaults: {}
   },
   {
