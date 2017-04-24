@@ -3,8 +3,35 @@
 A collection of PostCSS plugins [DockYard](https://dockyard.com) uses in our projects.
 
 ## Installation
+
 ```shell
-$npm install --save narwin-pack
+$npm install --save-dev ember-cli-post-css
+$npm install --save-dev narwin-pack
+```
+
+Edit `ember-cli-build.js` file to add `narwin-pack` module and `inline-svg` options with associated path:
+
+```shell
+module.exports = function(defaults) {
+  var app = new EmberApp(defaults, {
+    postcssOptions: {
+      compile: {
+        plugins: [
+          {
+            module: require('narwin-pack'),
+            options: {
+              'inline-svg': {
+                path: 'public/assets/foo'
+              }
+            }
+          }
+        ]
+      }
+    }
+  });
+
+  return app.toTree();
+};
 ```
 
 ## Using plugins
