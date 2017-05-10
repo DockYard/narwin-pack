@@ -21,7 +21,6 @@
     "postcss-hexrgba": "^0.2.1",
     "postcss-inline-svg": "^2.3.0",
     "postcss-nested": "^1.0.0",
-    "postcss-partial-import": "^3.1.1",
-    "postcss-svgo": "^2.1.6"
+    "postcss-partial-import": "^3.1.1"
   }
 }
