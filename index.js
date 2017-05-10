@@ -23,11 +23,6 @@ var processors = [
     defaults: {}
   },
   {
-    plugin: require('postcss-svgo'),
-    namespace: 'svgo',
-    defaults: {}
-  },
-  {
     plugin: require('autoprefixer'),
     defaults: { browsers: ['last 2 versions']}
   },
