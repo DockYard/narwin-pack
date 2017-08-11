@@ -25,7 +25,30 @@ var processors = [
   {
     plugin: require('postcss-svgo'),
     namespace: 'svgo',
-    defaults: {}
+    defaults: {
+      plugins: [
+        { cleanupNumericValues: false },
+        { cleanupAttrs: false },
+        { removeHiddenElems: false },
+        { cleanupEnableBackground: false },
+        { convertStyleToAttrs: false },
+        { convertPathData: false },
+        { convertTransform: false },
+        { removeUnknownsAndDefaults: false },
+        { removeNonInheritableGroupAttrs: false },
+        { removeUselessStrokeAndFill: false },
+        { removeUnusedNS: false },
+        { cleanupIDs: false },
+        { cleanupListOfValues: false },
+        { moveElemsAttrsToGroup: false },
+        { moveGroupAttrsToElems: false },
+        { collapseGroups: false },
+        { removeRasterImages: false },
+        { convertShapeToPath: false },
+        { sortAttrs: false },
+        { removeDimensions: false }
+      ]
+    }
   },
   {
     plugin: require('autoprefixer'),
