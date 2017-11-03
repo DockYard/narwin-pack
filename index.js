@@ -58,6 +58,11 @@ var processors = [
     plugin: require('postcss-hexrgba'),
     namespace: 'rgba-colors',
     defaults: {}
+  },
+  {
+    plugin: require('postcss-discard-comments'),
+    namespace: 'discard-comments',
+    defaults: {}
   }
 ];
 

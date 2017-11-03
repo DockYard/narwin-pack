@@ -18,6 +18,7 @@
     "object-assign": "^4.0.1",
     "postcss": "^5.2.13",
     "postcss-custom-properties": "^5.0.2",
+    "postcss-discard-comments": "^2.0.4",
     "postcss-hexrgba": "^0.2.1",
     "postcss-inline-svg": "^2.3.0",
     "postcss-nested": "^1.0.0",
