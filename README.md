@@ -21,7 +21,7 @@ module.exports = function(defaults) {
           {
             module: require('narwin-pack'),
             options: {
-              // Add your custome plugin options here
+              // Add your custom plugin options here
             }
           }
         ]
