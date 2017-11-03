@@ -42,10 +42,11 @@ module.exports = function(defaults) {
 - [postcss-svgo](https://github.com/ben-eb/postcss-svgo),
 - [autoprefixer](https://github.com/postcss/autoprefixer),
 - [postcss-hexrgba](https://github.com/seaneking/postcss-hexrgba)
+- [postcss-discard-comments](https://github.com/ben-eb/postcss-discard-comments)
 
 ## Legal
 
-[DockYard](http://dockyard.com), Inc &copy; 2015
+[DockYard](http://dockyard.com), Inc &copy; 2017
 
 [@dockyard](http://twitter.com/dockyard)
 
