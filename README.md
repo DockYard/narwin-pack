@@ -4,8 +4,35 @@ A collection of PostCSS plugins [DockYard](https://dockyard.com) uses in our pro
 
 ## Installation
 ```shell
-$npm install --save narwin-pack
+$npm install --save-dev narwin-pack
 ```
+
+Example for an Ember app, add the following into `ember-cli-build.js`:
+```shell
+$npm install --save-dev ember-cli-postcss
+```
+
+```js
+module.exports = function(defaults) {
+  var app = new EmberApp(defaults, {
+    postcssOptions: {
+      compile: {
+        plugins: [
+          {
+            module: require('narwin-pack'),
+            options: {
+              // Add your custome plugin options here
+            }
+          }
+        ]
+      }
+    }
+  });
+
+  return app.toTree();
+};
+```
+
 
 ## Using plugins
 - [postcss-partial-import](https://github.com/jonathantneal/postcss-partial-import),
