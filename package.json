@@ -1,16 +1,17 @@
 {
   "name": "narwin-pack",
   "version": "1.0.0",
-  "description":
-    "A collection of PostCSS plugins DockYard uses in our projects",
+  "description": "A collection of PostCSS plugins DockYard uses in our projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["postcss", "dockyard"],
+  "keywords": [
+    "postcss",
+    "dockyard"
+  ],
   "repository": "dockyard/narwin-pack",
-  "author":
-    "Cory Tanner <cory.tanner@dockyard.com>, Aaron Sikes <aaron.sikes@dockyard.com> (https://dockyard.com)",
+  "author": "Cory Tanner <cory.tanner@dockyard.com>, Aaron Sikes <aaron.sikes@dockyard.com> (https://dockyard.com)",
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^8.4.1",
