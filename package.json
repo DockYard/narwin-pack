@@ -14,7 +14,7 @@
   "author": "Cory Tanner <cory.tanner@dockyard.com>, Aaron Sikes <aaron.sikes@dockyard.com> (https://dockyard.com)",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^7.1.6",
+    "autoprefixer": "^8.4.1",
     "object-assign": "^4.1.1",
     "postcss": "^6.0.14",
     "postcss-custom-properties": "^6.2.0",
