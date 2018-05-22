@@ -52,6 +52,7 @@ var processors = [
   },
   {
     plugin: require('autoprefixer'),
+    namespace: 'autoprefixer',
     defaults: { browsers: ['last 2 versions']}
   },
   {
