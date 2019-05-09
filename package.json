@@ -14,15 +14,15 @@
   "author": "Cory Tanner <cory.tanner@dockyard.com>, Aaron Sikes <aaron.sikes@dockyard.com> (https://dockyard.com)",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^8.4.1",
+    "autoprefixer": "^9.5.1",
     "object-assign": "^4.1.1",
-    "postcss": "^6.0.14",
-    "postcss-custom-properties": "^6.2.0",
-    "postcss-discard-comments": "^2.0.4",
-    "postcss-hexrgba": "^1.0.0",
-    "postcss-inline-svg": "^3.0.0",
-    "postcss-nested": "^2.1.2",
+    "postcss": "^7.0.16",
+    "postcss-custom-properties": "^8.0.10",
+    "postcss-discard-comments": "^4.0.2",
+    "postcss-hexrgba": "^1.0.1",
+    "postcss-inline-svg": "^3.1.1",
+    "postcss-nested": "^4.1.2",
     "postcss-partial-import": "^4.1.0",
-    "postcss-svgo": "^2.1.6"
+    "postcss-svgo": "^4.0.2"
   }
 }
