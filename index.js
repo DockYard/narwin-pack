@@ -15,7 +15,9 @@ var processors = [
   {
     plugin: require('postcss-custom-properties'),
     namespace: 'properties',
-    defaults: {}
+    defaults: {
+      warnings: false
+    }
   },
   {
     plugin: require('postcss-inline-svg'),
