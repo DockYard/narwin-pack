@@ -3,7 +3,7 @@ var postcss = require('postcss');
 
 var processors = [
   {
-    plugin: require('postcss-partial-import'),
+    plugin: require('postcss-import'),
     namespace: 'import',
     defaults: {}
   },
@@ -13,52 +13,14 @@ var processors = [
     defaults: {}
   },
   {
-    plugin: require('postcss-custom-properties'),
-    namespace: 'properties',
-    defaults: {}
-  },
-  {
     plugin: require('postcss-inline-svg'),
     namespace: 'inline-svg',
     defaults: {}
   },
   {
-    plugin: require('postcss-svgo'),
-    namespace: 'svgo',
-    defaults: {
-      plugins: [
-        { cleanupNumericValues: false },
-        { cleanupAttrs: false },
-        { removeHiddenElems: false },
-        { cleanupEnableBackground: false },
-        { convertStyleToAttrs: false },
-        { convertPathData: false },
-        { convertTransform: false },
-        { removeUnknownsAndDefaults: false },
-        { removeNonInheritableGroupAttrs: false },
-        { removeUselessStrokeAndFill: false },
-        { removeUnusedNS: false },
-        { cleanupIDs: false },
-        { cleanupListOfValues: false },
-        { moveElemsAttrsToGroup: false },
-        { moveGroupAttrsToElems: false },
-        { collapseGroups: false },
-        { removeRasterImages: false },
-        { convertShapeToPath: false },
-        { sortAttrs: false },
-        { removeDimensions: false }
-      ]
-    }
-  },
-  {
     plugin: require('autoprefixer'),
     namespace: 'autoprefixer',
     defaults: { browsers: ['last 2 versions']}
-  },
-  {
-    plugin: require('postcss-hexrgba'),
-    namespace: 'rgba-colors',
-    defaults: {}
   },
   {
     plugin: require('postcss-discard-comments'),

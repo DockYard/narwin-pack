@@ -1,3 +1,18 @@
+# 2.0.0
+- Update dependencies to latest versions
+  - `"autoprefixer": "^9.7.0"`
+  - `"postcss": "^7.0.21"`
+  - `"postcss-inline-svg": "^4.1.0"`
+
+- Remove dependencies
+  - `"postcss-custom-properties": "^8.0.11"`
+  - `"postcss-hexrgba": "^1.0.2"`
+  - `"postcss-svgo": "^4.0.2"`
+  - `"postcss-partial-import": "^4.1.0"`
+
+- New dependencies to latest versions
+  - `"postcss-import": "^12.0.1"`
+
 # 1.1.1
 - Update dependencies to latest versions
   - `"autoprefixer": "^9.6.1"`
