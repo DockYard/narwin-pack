@@ -35,13 +35,10 @@ module.exports = function(defaults) {
 
 
 ## Using plugins
-- [postcss-partial-import](https://github.com/jonathantneal/postcss-partial-import),
+- [postcss-import](https://github.com/postcss/postcss-import),
 - [postcss-nested](https://github.com/postcss/postcss-nested),
-- [postcss-custom-properties](https://github.com/postcss/postcss-custom-properties),
 - [postcss-inline-svg](https://github.com/TrySound/postcss-inline-svg),
-- [postcss-svgo](https://github.com/ben-eb/postcss-svgo),
 - [autoprefixer](https://github.com/postcss/autoprefixer),
-- [postcss-hexrgba](https://github.com/seaneking/postcss-hexrgba)
 - [postcss-discard-comments](https://github.com/ben-eb/postcss-discard-comments)
 
 ## Legal
